@@ -23,6 +23,16 @@ namespace Messin_With_Loops
                 WriteLine(i);
                 i--;
             }
+            do
+            {
+                WriteLine(i);
+                i++;
+
+            } while (i <= 5);
+            for (int j = 0; j <= 5; ++j)
+            {
+                WriteLine(j);
+            }
         }
     }
 }
