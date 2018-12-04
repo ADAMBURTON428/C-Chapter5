@@ -11,15 +11,17 @@ namespace EnterLowercaseLetters
         static void Main(string[] args)
         {
             char letter;
-            string inputString;
-            WriteLine("Enter A letter: ");
-         
-            letter = Convert.ToChar(inputString);
-           
-            if(letter >= 'a' && letter <= 'z')
+            string letterString;
+            WriteLine("Enter a letter: ");
+            letterString = ReadLine();
+            letter = Convert.ToChar(letterString);
+
+            if (letter >= 'a' && letter <= 'z')
             {
-                WriteLine("OK");
+                WriteLine(letter + " is OK");
             }
+            else
+                WriteLine("Error");
 
         }
     }
