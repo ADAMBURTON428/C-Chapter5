@@ -27,25 +27,31 @@ namespace HomeSales
                 if ("F" == input || "f" == input)
                 {
                     double saleHome = 0;
+                    saleHome++;
                     francisTotal = saleHome + francisTotal;
                     WriteLine(francisTotal);
                 }
                 else if ("D" == input || "d" == input)
                 {
                     double saleHome = 0;
+                    saleHome++;
                     danilleTotal = saleHome + danilleTotal;
                     WriteLine(danilleTotal);
                 }
                 else if ("E" == input || "e" == input)
                 {
                     double saleHome = 0;
+                    saleHome++;
                     edwardTotal = saleHome + edwardTotal;
                     WriteLine(edwardTotal);
                 }
-                else
-                    WriteLine(edwardTotal);
-                    WriteLine(danilleTotal);
-                    WriteLine(francisTotal);
+                else if("Z" == input || "z" == input)
+                {
+                    WriteLine("Francis: " + francisTotal);
+                    WriteLine("Danille: " + danilleTotal);
+                    WriteLine("Edward: " + edwardTotal);
+                }
+                
             }
 
             
